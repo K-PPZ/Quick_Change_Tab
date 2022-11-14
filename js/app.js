@@ -2,7 +2,7 @@ let text = document.getElementById("content");
 let p = document.getElementsByClassName("pnnP");
 let input = document.getElementById("text");
 let form = document.getElementById("form");
-text.innerText = "text";
+text.innerText = "content";
 
 
 form.addEventListener("submit", (e) => {
