@@ -1,0 +1,58 @@
+body {
+    background-color: #2A80B9;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteneur {
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    padding: 2% 1%;
+}
+
+input {
+    border-bottom: 2px solid #DEDEDE;
+    width: 80%;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 2% 0;
+}
+
+#pnn {
+    display: flex;
+}
+
+#negative {
+    margin: auto 10px;
+}
+
+button {
+    border: none;
+    background-color: #F1F1F1;
+    padding: 2% 1%;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #E5E5E5;
+}
+
+button:active {
+    padding: 1.8% 0.8%;
+}
+
+#pnn p {
+    text-transform: uppercase;
+    color: #CCCCCC;
+}
+
+#pnn p:hover {
+    cursor: pointer;
+}
